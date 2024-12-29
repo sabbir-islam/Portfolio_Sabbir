@@ -1,0 +1,58 @@
+.footer-d {
+    background-color: #111827;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-d .social-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-d .social-icon__item {
+    display: inline-block;
+  }
+  
+  .footer-d .social-icon__link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-d .social-icon__link:hover {
+    color: #1da1f2; /* Twitter blue color */
+  }
+  
+  .footer-d .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-d .menu__item {
+    display: inline-block;
+  }
+  
+  .footer-d .menu__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-d .menu__link:hover {
+    color: #1da1f2; /* Twitter blue color */
+  }
+  
+  .footer-d p {
+    margin: 0;
+    font-size: 14px;
+  }
