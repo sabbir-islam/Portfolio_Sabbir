@@ -72,3 +72,27 @@
     margin: 0;
     font-size: 14px;
   }
+
+
+
+/* .image-container {
+    background-color: transparent;
+} */
+.imgg {
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.imgss {
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.separator {
+    border: none; 
+    border-top: 2px solid #000;
+    margin: 50px 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
