@@ -1,177 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabbir Islam</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sabbir Islam</title>
+    <!-- style section here  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome  -->
+    <script
+      src="https://kit.fontawesome.com/1fb895dcbf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <!-- style section here  -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- fontawsome  -->
-  <script src="https://kit.fontawesome.com/1fb895dcbf.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-
-
-
-  <!-- navbar start here  -->
-  <nav class="bg-white border-gray-200 dark:bg-gray-900">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="images/logo2.jpeg" class="h-8" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Sabbir Islam</span>
-      </a>
-      <button data-collapse-toggle="navbar-default" type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-        aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M1 1h15M1 7h15M1 13h15" />
-        </svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-          </li>
-          <li>
-            <a href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experience</a>
-          </li>
-          <li>
-            <a href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
-          </li>
-          <li>
-            <a href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- navbar end here  -->
-
-  <!-- profile start here  -->
-  <section class="pt-20 mx-40 mb-40">
-    <div class="conatiner mx-auto flex items-center justify-center justify-content-center gap-16">
-      <div class="flex rounded-lg" style="width: 400p;height: 400px;">
-        <img src="images/profile-pic.png" alt="">
-      </div>
-      <div class="gap-5 grid justify-content-center text-center">
-        <div>
-          <h5 class="text-gray-500">Hello, I'm</h5>
-          <h2 class="font-sans text-bold text-5xl font-weight: 600;">Sabbir Islam</h2>
-          <h3 class="text-2xl text-gray-500">Frontend Developer</h3>
+  <body>
+    
+    <!-- navbar start here  -->
+    <nav class="bg-transparent border-gray-200">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="images/logo2.jpeg" class="h-8" alt="Flowbite Logo" />
+          <span
+            class="self-center text-2xl uppercase whitespace-nowrap text-[#374151] dark:text-[#374151]"
+            >Sabbir Islam</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-        <div>
-          <button type="button"
-            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Download
-            CV</button>
-          <button type="button"
-            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Contact
-            Info</button>
-        </div>
-        <div>
-          <button type="button"
-            class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"><i
-              class="fa-brands fa-github"></i></button>
-          <button type="button"
-            class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"><i
-              class="fa-brands fa-linkedin"></i></button>
-        </div>
       </div>
-    </div>
-  </section>
-  <!-- profile end here  -->
+    </nav>
 
-  <!-- About start here  -->
-  <section class="my-20 ms-5">
-    <div class="text-center pb-16">
-      <h5 class="text-gray-500">Get To Know More</h5>
-      <h1 class="font-sans text-bold text-5xl font-weight: 600">About Me</h1>
-    </div>
-    <div class="conatiner flex flex-row gap-20 justify-center">
-      <div class="flex" style="width: 400p;height: 400px;">
-        <img class="rounded-lg" src="images/about-pic.png" alt="">
-      </div>
-      <div class="flex flex-col justify-content-center">
-        <div class="flex flex-row gap-5">
-          <div class="border-2 border-neutral-400 rounded-lg p-6 w-1/2 text-center" style="width: 418px;height: 168px;">
-            <i class="fa-solid fa-certificate"></i>
-            <h5 class="text-2xl text-bold font-weight-500">Experience</h5>
-            <h6>2+ years</h6>
-            <h6>Frontend Development</h6>
+    <!-- navbar end here  -->
+
+    <!-- profile start here  -->
+    <section class="pt-20 mx-40 mb-40">
+      <div
+        class="conatiner mx-auto flex items-center justify-center justify-content-center gap-16"
+      >
+        <div class="flex rounded-lg" style="width: 400p; height: 400px">
+          <img src="images/profile-pic.png" alt="" />
+        </div>
+        <div class="gap-5 grid justify-content-center text-center">
+          <div>
+            <h5 class="text-gray-500">Hello, I'm</h5>
+            <h2 class="font-sans text-bold text-5xl font-weight: 600;">
+              Sabbir Islam
+            </h2>
+            <h3 class="text-2xl text-gray-500">Frontend Developer</h3>
           </div>
-          <div class="border-2 border-neutral-400 rounded-lg p-6 w-1/2 text-center" style="width: 418px;height: 168px;">
-            <i class="fa-solid fa-user-graduate"></i>
-            <h5 class="text-2xl">Education</h5>
-            <h5>B.Sc. Bachelors Degree</h5>
-            <h5>-</h5>
+          <div>
+            <button
+              type="button"
+              class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+            >
+              Download CV
+            </button>
+            <button
+              type="button"
+              class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              <i class="fa-brands fa-github"></i>
+            </button>
+            <button
+              type="button"
+              class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </button>
           </div>
         </div>
-        <div class="w-1/2 mt-4 text-center">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel odio sequi debitis iste obcaecati eos rerum
-            quam nemo, maiores molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+      </div>
+    </section>
+    <!-- profile end here  -->
+
+    <!-- About start here  -->
+    <section class="my-20 ms-5">
+      <div class="text-center pb-16">
+        <h5 class="text-gray-500">Get To Know More</h5>
+        <h1 class="font-sans text-bold text-5xl font-weight: 600">About Me</h1>
+      </div>
+      <div class="conatiner flex flex-row gap-20 justify-center">
+        <div class="flex" style="width: 400p; height: 400px">
+          <img class="rounded-lg" src="images/about-pic.png" alt="" />
+        </div>
+        <div class="flex flex-col justify-content-center">
+          <div class="flex flex-row gap-5">
+            <div
+              class="border-2 border-neutral-400 rounded-lg p-6 w-1/2 text-center"
+              style="width: 418px; height: 168px"
+            >
+              <i class="fa-solid fa-certificate"></i>
+              <h5 class="text-2xl text-bold font-weight-500">Experience</h5>
+              <h6>2+ years</h6>
+              <h6>Frontend Development</h6>
+            </div>
+            <div
+              class="border-2 border-neutral-400 rounded-lg p-6 w-1/2 text-center"
+              style="width: 418px; height: 168px"
+            >
+              <i class="fa-solid fa-user-graduate"></i>
+              <h5 class="text-2xl">Education</h5>
+              <h5>B.Sc. Bachelors Degree</h5>
+              <h5>-</h5>
+            </div>
+          </div>
+          <div class="w-1/2 mt-4 text-center">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel odio
+              sequi debitis iste obcaecati eos rerum quam nemo, maiores
+              molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- About end here  -->
+    </section>
+    <!-- About end here  -->
 
-  <!-- footer start here  -->
-  <!-- ...existing code... -->
+    <!-- footer start here  -->
+    <footer class="footer-d">
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Experience</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Projects</a>
+        </li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      </ul>
+      <p>Ⓒ 2025 Sabbir Islam | All rights reserved</p>
+    </footer>
 
-  <!-- footer start here  -->
-  <footer class="footer-d">
-    <ul class="social-icon">
-      <li class="social-icon__item">
-        <a class="social-icon__link" href="#">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-      </li>
-      <li class="social-icon__item">
-        <a class="social-icon__link" href="#">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-      </li>
-      <li class="social-icon__item">
-        <a class="social-icon__link" href="#">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-      </li>
-      <li class="social-icon__item">
-        <a class="social-icon__link" href="#">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-    <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item">
-        <a class="menu__link" href="#movies">Experience</a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#fanFav">Projects</a>
-      </li>
-      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-    </ul>
-    <p>Ⓒ 2025 Sabbir Islam | All rights reserved</p>
-  </footer>
+    <!-- footer end here  -->
 
-  <!-- footer end here  -->
-
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
