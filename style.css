@@ -18,23 +18,6 @@
   --bg-color: #fff;
 }
 
-
-.navbar li a::after {
-  content: "";           /* Empty content for pseudo-element */
-  display: block;
-  width: 0;
-  height: 2px;           /* Thickness of the underline */
-  background: var(--main-color);   /* Color of the underline */
-  transition: width 0.3s ease; /* Smooth transition */
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.navbar li a:hover::after {
-  width: 100%;           /* Expand underline to full width on hover */
-}
-
 .footer-d {
     background: transparent;
     color: #374151;
