@@ -21,7 +21,7 @@
   <nav class="bg-transparent border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="images/logo2.jpeg" class="h-8" alt="Flowbite Logo" />
+        <img src="images/logo2.jpeg" class="h-8" alt="Logo" />
         <span class="self-center text-2xl uppercase whitespace-nowrap text-[#374151] dark:text-[#374151]">Sabbir Islam</span>
       </a>
       <button
@@ -38,24 +38,25 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
+          class="navbar font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
         >
           <li>
-            <a href="#about" class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent">About</a>
+            <a href="#about" class="block py-2 px-3 text-[#374151] rounded hover:text-blue-700 dark:text-[#374151] md:dark:hover:text-blue-400 hover:underline">About</a>
           </li>
           <li>
-            <a href="#experience" class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent">Experience</a>
+            <a href="#experience" class="block py-2 px-3 text-[#374151] rounded hover:text-blue-700 dark:text-[#374151] md:dark:hover:text-blue-400 hover:underline">Experience</a>
           </li>
           <li>
-            <a href="#projects" class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent">Projects</a>
+            <a href="#projects" class="block py-2 px-3 text-[#374151] rounded hover:text-blue-700 dark:text-[#374151] md:dark:hover:text-blue-400 hover:underline">Projects</a>
           </li>
           <li>
-            <a href="#contact" class="block py-2 px-3 text-[#374151] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#374151] md:dark:hover:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-gray-100 md:dark:hover:bg-transparent">Contact</a>
+            <a href="#contact" class="block py-2 px-3 text-[#374151] rounded hover:text-blue-700 dark:text-[#374151] md:dark:hover:text-blue-400 hover:underline">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  
   <!-- navbar end here  -->
 
   <!-- profile start here  -->
@@ -83,12 +84,12 @@
           </button>
         </div>
         <div class="flex justify-center gap-4">
-          <button type="button"
-            class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+          <button type="button" id="github"
+            class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-2 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
             <i class="fa-brands fa-github"></i>
           </button>
-          <button type="button"
-            class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+          <button type="button" id="linkedin"
+            class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-2 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
             <i class="fa-brands fa-linkedin"></i>
           </button>
         </div>
@@ -121,7 +122,7 @@
             <div class="border-2 border-neutral-400 rounded-lg p-4 md:p-6 text-center">
               <i class="fa-solid fa-user-graduate text-xl md:text-2xl"></i>
               <h5 class="text-lg md:text-xl font-semibold">Education</h5>
-              <h6 class="text-sm md:text-base">B.Sc. Bachelors Degree</h6>
+              <h6 class="text-sm md:text-base">B.Sc. in Computer Science Engineering</h6>
               <h6 class="text-sm md:text-base">-</h6>
             </div>
           </div>
@@ -214,10 +215,10 @@
         </div>
         <h3 class="text-3xl my-4">MoviesDB</h3>
         <div class="flex justify-center space-x-4">
-          <a href="#" target="_blank" class="py-2 px-4 bg-gray-200 rounded-full text-gray-900 hover:bg-gray-300">
+          <a id="" href="https://movies-db-n.netlify.app/" target="_blank" class="py-2 px-4 bg-gray-200 rounded-full text-gray-900 hover:bg-gray-300">
             View Project
           </a>
-          <a href="#" target="_blank" class="py-2 px-4 bg-gray-200 rounded-full text-gray-900 hover:bg-gray-300">
+          <a href="https://github.com/sabbir-islam/Movie-DB" target="_blank" class="py-2 px-4 bg-gray-200 rounded-full text-gray-900 hover:bg-gray-300">
             View Code
           </a>
         </div>
@@ -225,7 +226,7 @@
       <!-- Project 2 -->
       <div class="border-2 rounded-2xl border-slate-500 text-center flex flex-col items-center p-6">
         <div class="my-4 flex w-full h-60 overflow-hidden rounded-2xl">
-          <img class="object-cover w-full h-full" src="images/project-2.png" alt="Project 2">
+          <img class="object-cover w-full h-full" src="images/project2.jpg" alt="Project 2">
         </div>
         <h3 class="text-3xl my-4">Project 2</h3>
         <div class="flex justify-center space-x-4">
@@ -240,7 +241,7 @@
       <!-- Project 3 -->
       <div class="border-2 rounded-2xl border-slate-500 text-center flex flex-col items-center p-6">
         <div class="my-4 flex w-full h-60 overflow-hidden rounded-2xl">
-          <img class="object-cover w-full h-full" src="images/project-3.png" alt="Project 3">
+          <img class="object-cover w-full h-full" src="images/project3.jpg" alt="Project 3">
         </div>
         <h3 class="text-3xl my-4">Project 3</h3>
         <div class="flex justify-center space-x-4">
@@ -273,8 +274,8 @@
       </div>
   
       <!-- LinkedIn Section -->
-      <div class="border-2 border-neutral-400 rounded-lg p-8 text-center w-full max-w-md">
-        <a href="#" class="flex flex-col items-center">
+      <div class="border-2 border-neutral-400 hover:border-blue-500 rounded-lg p-8 text-center w-full max-w-md">
+        <a href="https://www.linkedin.com/in/sabbir-islam-109b12256" target="_blank" class="flex flex-col items-center">
           <i class="fa-brands fa-linkedin text-4xl text-blue-600 mb-4"></i>
           <h5 class="text-lg font-semibold">LinkedIn</h5>
         </a>
