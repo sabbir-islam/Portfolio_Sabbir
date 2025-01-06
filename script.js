@@ -11,3 +11,7 @@ document.getElementById("github").addEventListener("click", function () {
 document.getElementById("linkedin").addEventListener("click", function () {
   window.open("https://www.linkedin.com/in/sabbir-islam-109b12256", "_blank");
 });
+
+document.getElementById("download-cv").addEventListener("click", function () {
+  window.location.href = 'images/resume.pdf';
+});
